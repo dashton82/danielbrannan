@@ -1,0 +1,389 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body {
+    height: 100%;
+    font-family: "Helvetica", "arial", "sans-serif";
+    line-height: 1.6em;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#header {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a:link {
+    color: #034af3;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #505abc;
+}
+
+a:hover {
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #12eb87;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+header,
+footer,
+nav,
+section {
+    display: block;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+    
+}
+
+h2 {
+    padding: 0 0 10px 0;
+    font-size: 16px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+.logo 
+{
+    margin: 0;
+    font-family: Six Caps, Helvetica, arial, sans-serif;
+    line-height: 1.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.subTitle {
+    padding-left: 1px;
+}
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header, #header {
+    position: relative;
+    margin-bottom: 0px;
+    color: #000;
+    padding: 0;
+}
+
+
+#contentWrapper {
+    padding: 0 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#main 
+{
+    max-width: 700px;
+    padding: 40px 5px;
+    position: relative;
+}
+
+
+footer, 
+#footer {
+    background-color: #fff;
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0 0 30px 0;
+    font-size: .9em;
+    border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+}
+
+.bodyText {
+    font-size: 12px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+
+ul#menu li {
+    display: inline;
+    list-style: none;
+}
+
+ul#menu li#greeting {
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 2.8em;
+    color: #fff;
+}
+
+li.selected a {
+    background-color: #fff;
+    color: #000;
+}
+
+nav li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+#topNav nav li a:hover {
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+#topNav nav li a:active {
+    background-color: #fff;
+    text-decoration: none;
+    color:#000
+}
+
+
+
+
+#topNav {
+    position: absolute;
+    right: 20px;
+    float: left;
+    margin-top: -45px;
+}
+
+#topNav nav {
+    position: relative;
+    z-index: 100;
+    margin-top: 0;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+    padding: 0;
+}
+
+#topNav nav li {
+    position: relative;
+    
+    float: left;
+}
+
+#topNav nav li {
+    display: inline-block;
+    line-height: 28px;
+    
+}
+
+#topNav nav li a {
+    line-height: 28px;
+    display: inline-block;
+    font-family: "Cabin";
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    padding: 0 20px;
+    text-decoration: none;
+    color:#9C9C9C
+}
+
+nav a {
+    
+}
+
+
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+input[type="text"], 
+input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1.2em;
+    color: #444;
+    width: 200px;
+}
+
+select {
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+input[type="submit"] {
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+/* TABLE
+----------------------------------------------------------*/
+
+table {
+    border: solid 1px #e8eef4;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 5px;
+    border: solid 1px #e8eef4;
+}
+
+table th {
+    padding: 6px 5px;
+    text-align: left;
+    background-color: #e8eef4;
+    border: solid 1px #e8eef4;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear {
+    clear: both;
+}
+
+.error {
+    color: Red;
+}
+
+nav, 
+#menucontainer {
+    margin-top: 40px;
+}
+
+div#title {
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+#logindisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    margin: 10px;
+    color: White;
+}
+
+#logindisplay a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:visited {
+    color: white;
+    text-decoration: underline;
+}
+
+#logindisplay a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #ff0000;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/* Styles for editor and display helpers
+----------------------------------------------------------*/
+.display-label, 
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.display-field, 
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+.text-box {
+    width: 30em;
+}
+
+.text-box.multi-line {
+    height: 6.5em;
+}
+
+.tri-state {
+    width: 6em;
+}
